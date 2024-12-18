@@ -1,0 +1,108 @@
+.info {
+  padding: 20px;
+  text-align: left;
+}
+
+.info h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.info ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.info ul li {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.task-element {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.task-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.task-tags {
+  margin-top: 5px;
+}
+
+.tag-badge {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 3px;
+  padding: 2px 6px;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.remove-button {
+  background-color: #dc3545; /* Bright red color for prominence */
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.remove-button:hover {
+  background-color: #c82333; /* Slightly darker red on hover */
+  transform: scale(1.05); /* Slight zoom-in effect */
+}
+
+.remove-button:active {
+  background-color: #a71d2a; /* Even darker red on click */
+  transform: scale(1); /* Reset zoom */
+}
+
+.remove-tag-button {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.remove-tag-button:hover {
+  font-weight: bold;
+}
+
+.task-element input {
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.task-element button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
