@@ -15,7 +15,7 @@ const ActivityList = ({ activities, tags, updateActivity, removeActivity, create
           tags={tags}
           updateActivity={updateActivity}
           removeActivity={removeActivity}
-          createTag={createTag} // Pass the createTag function
+          createTag={createTag} 
         />
       ))}
     </div>

@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Dashboard from './Dashboard';
 import Analytics from './Analytics';
 import Settings from './Settings';
-import Info from './Info'; // Import the new Info component
+import Info from './Info'; 
 import Navbar from './Navbar';
 
 const App = () => {
